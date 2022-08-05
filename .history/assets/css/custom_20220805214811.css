@@ -510,7 +510,7 @@ h6 {
 
 .footer.footer-2 {
 	background-color: #15264F;
-	padding: 50px 0;
+	padding: 150px 0;
 }
 
 .bg-gradient-primary::after {
@@ -955,7 +955,7 @@ sub small {
 	font-size: 16px;
 }
 .footer-shape {
-	margin-top: -5px;
+	margin-top: -20px;
 }
 .footer-list-menu li a {
 	font-size: 13px;
@@ -974,17 +974,6 @@ sub small {
 .m-title{
 	display: none
 }
-
-.footer-box{
-	width: 100%;
-}
-
-.start-btn{
-	display: flex;
-	justify-content: start;
-}
-
-
 
 /*==============================
     Responsive / Media Query
@@ -1033,7 +1022,7 @@ sub small {
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media screen and (max-width: 767.98px) {
+@media screen and(max-width: 767.98px) {
 	.home-1 .home-content h1 {
 		font-size: 30px;
 	}
@@ -1055,28 +1044,10 @@ sub small {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media screen and (max-width: 480px) {
-	.x-title{
-		display: none
-	}
+@media screen and(max-width: 480px) {
 	.m-title{
-		display: block;
-		text-align: center;
-	}
-
-	.home-4 .intro-box{
 		display: none
 	}
-
-	.start-btn{
-		justify-content: center;
-	}
-
-	.start-btn a{
-		padding: 10px;
-	}
-	
-	
 	
 	.service-1 .section-header p {
 		margin-left: auto;

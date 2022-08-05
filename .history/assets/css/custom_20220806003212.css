@@ -1065,7 +1065,9 @@ sub small {
 	}
 
 	.home-4 .intro-box{
-		display: none
+		font-size: 15px;
+		line-height: 20.8px;
+		text-align: center;
 	}
 
 	.start-btn{

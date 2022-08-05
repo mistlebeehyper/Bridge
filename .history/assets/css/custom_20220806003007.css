@@ -983,7 +983,10 @@ sub small {
 	display: flex;
 	justify-content: start;
 }
-
+.start-btn a{
+	display: flex;
+	justify-content: start;
+}
 
 
 /*==============================
@@ -1065,17 +1068,14 @@ sub small {
 	}
 
 	.home-4 .intro-box{
-		display: none
+		font-size: 15px;
+		line-height: 20.8px;
+		text-align: center;
 	}
 
 	.start-btn{
 		justify-content: center;
 	}
-
-	.start-btn a{
-		padding: 10px;
-	}
-	
 	
 	
 	.service-1 .section-header p {

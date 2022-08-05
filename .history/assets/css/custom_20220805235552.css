@@ -979,12 +979,6 @@ sub small {
 	width: 100%;
 }
 
-.start-btn{
-	display: flex;
-	justify-content: start;
-}
-
-
 
 /*==============================
     Responsive / Media Query
@@ -1060,22 +1054,13 @@ sub small {
 		display: none
 	}
 	.m-title{
-		display: block;
-		text-align: center;
+		display: block
 	}
 
 	.home-4 .intro-box{
-		display: none
+		font-size: 15px;
+		line-height: 20.8px;
 	}
-
-	.start-btn{
-		justify-content: center;
-	}
-
-	.start-btn a{
-		padding: 10px;
-	}
-	
 	
 	
 	.service-1 .section-header p {

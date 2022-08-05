@@ -8,7 +8,6 @@
 /*============
     Typography
 ===============================*/
-
 body {
 	color: #006633 ;
 	font-family: 'Rubik', sans-serif;
@@ -510,7 +509,7 @@ h6 {
 
 .footer.footer-2 {
 	background-color: #15264F;
-	padding: 50px 0;
+	padding: 150px 0;
 }
 
 .bg-gradient-primary::after {
@@ -955,7 +954,7 @@ sub small {
 	font-size: 16px;
 }
 .footer-shape {
-	margin-top: -5px;
+	margin-top: -20px;
 }
 .footer-list-menu li a {
 	font-size: 13px;
@@ -971,18 +970,6 @@ sub small {
 
 
 /*Add Style*/
-.m-title{
-	display: none
-}
-
-.footer-box{
-	width: 100%;
-}
-
-.start-btn{
-	display: flex;
-	justify-content: start;
-}
 
 
 
@@ -996,7 +983,9 @@ sub small {
 
 /* Medium devices (tablets, less than 992px) */
 @media screen and (max-width: 991.98px) {
-	
+	.m-title{
+		display: none
+	}
 
 	.navbar-custom .navbar-collapse {
 		background: #fff;
@@ -1033,7 +1022,7 @@ sub small {
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media screen and (max-width: 767.98px) {
+@media screen and(max-width: 767.98px) {
 	.home-1 .home-content h1 {
 		font-size: 30px;
 	}
@@ -1055,29 +1044,10 @@ sub small {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media screen and (max-width: 480px) {
+@media screen and(mix-width: 440.98px) {
 	.x-title{
 		display: none
 	}
-	.m-title{
-		display: block;
-		text-align: center;
-	}
-
-	.home-4 .intro-box{
-		display: none
-	}
-
-	.start-btn{
-		justify-content: center;
-	}
-
-	.start-btn a{
-		padding: 10px;
-	}
-	
-	
-	
 	.service-1 .section-header p {
 		margin-left: auto;
 		margin-right: auto;
